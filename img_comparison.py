@@ -9,6 +9,6 @@ diff = cv.subtract(image1,image2)
 result = not np.any(diff)
 
 if result is True:
-    print('the images are the same')
+    print('the_images_are_the_same')
 else:
     print('the images are diff')
