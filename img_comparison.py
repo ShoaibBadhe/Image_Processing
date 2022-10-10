@@ -6,7 +6,7 @@ image2 = cv.imread('new2.jpg')
 
 diff = cv.subtract(image1,image2)
 
-result = not np.any(diff)
+result = np.any(diff)
 
 if result is True:
     print('the_images_are_the_same')
